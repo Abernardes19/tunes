@@ -8,10 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "new-blue": "#000e3a",
-        "gray-1": "#535464",
-        "beige": "#a5a790"
+        "dark-green": "#1b444e"
       },
+      boxShadow: {
+        "login-shadow": "30px 30px 50px -5px #1b444e"
+      }
     },
     transitionProperty: {
       'height': 'height',

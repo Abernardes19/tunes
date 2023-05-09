@@ -1,7 +1,7 @@
-function App() {
+import Login from "./pages/Login"
+
+export default function App() {
   return (
-    <div>Iniciando</div>
+    <Login />
   )
 }
-
-export default App
