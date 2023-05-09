@@ -12,6 +12,22 @@ export default {
       },
       boxShadow: {
         "login-shadow": "30px 30px 50px -5px #1b444e"
+      },
+      keyframes: {
+        openLogin: {
+          "0%": { width: "0px", height: "0px" },
+          "80": { width: "550px", height: "500px" },
+          "100%": { width: "500px", height: "450px" }
+        },
+        openInputs: {
+          "0%": { opacity: "-1000%", height: "0px" },
+          "80%": { opacity: "50%", height: "66px" },
+          "100%": { opacity: "100%" }
+        }
+      },
+      animation: {
+        openLogin: "openLogin 2s",
+        openInputs: "openInputs 2s"
       }
     },
     transitionProperty: {
