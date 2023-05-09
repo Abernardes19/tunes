@@ -15,6 +15,9 @@ export default function Login() {
             <input type="password" id="password" className=" bg-transparent border rounded-full p-2 w-full" />
           </label>
         </form>
+        <button className=" bg-light-green w-[50%] transition ease-in-out delay-150 hover:scale-110 hover:bg-dark-green hover:border-2 hover:border-light-green duration-500">
+          Logar
+        </button>
 
       </div>
     </div>

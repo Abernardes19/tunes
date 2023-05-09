@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "dark-green": "#1b444e"
+        "dark-green": "#1b444e",
+        "light-green": "#4a716c"
       },
       boxShadow: {
         "login-shadow": "30px 30px 50px -5px #1b444e"
