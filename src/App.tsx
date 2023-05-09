@@ -6,8 +6,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={ <Navigate to="/login" /> } />
-        <Route path="/login" element={ <Login /> } />
+        <Route path="/" element={
+          localStorage.getItem("tunes") ? <Navigate to="/search" /> : <Navigate to="/login" />
+          }
+        />
+        <Route path="/login" element={ localStorage.getItem("tunes") ? <Navigate to="/search" /> : <Login /> } />
         <Route path="/search" element={ <Search />} />
       </Routes>
     </BrowserRouter>

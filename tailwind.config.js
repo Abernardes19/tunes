@@ -22,13 +22,13 @@ export default {
         },
         openInputs: {
           "0%": { opacity: "-1000%", height: "0px" },
-          "80%": { opacity: "50%", height: "66px" },
+          "80%": { opacity: "50%" },
           "100%": { opacity: "100%" }
         }
       },
       animation: {
-        openLogin: "openLogin 2s",
-        openInputs: "openInputs 2s"
+        openLogin: "openLogin 3s",
+        openInputs: "openInputs 3s"
       }
     },
     transitionProperty: {
