@@ -12,7 +12,8 @@ export default {
         "light-green": "#4a716c"
       },
       boxShadow: {
-        "login-shadow": "30px 30px 50px -5px #1b444e"
+        "login-shadow": "30px 30px 50px -5px #1b444e",
+        "album-card": "-30px 20px 50px -5px #1b444e"
       },
       keyframes: {
         openLogin: {

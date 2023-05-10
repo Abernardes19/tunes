@@ -1,5 +1,5 @@
 export interface IArtist {
-  artisName: string;
+  artistName: string;
   artworkUrl100: string;
   collectionId: number;
   collectionName: string;
