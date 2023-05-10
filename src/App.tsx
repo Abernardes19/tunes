@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import Album from "./pages/Album"
 import Login from "./pages/Login"
 import Search from "./pages/Search"
 
@@ -11,7 +12,8 @@ export default function App() {
           }
         />
         <Route path="/login" element={ localStorage.getItem("tunes") ? <Navigate to="/search" /> : <Login /> } />
-        <Route path="/search" element={ <Search />} />
+        <Route path="/search" element={ <Search /> } />
+        <Route path="/album/:id" element={ <Album /> }/>
       </Routes>
     </BrowserRouter>
   )

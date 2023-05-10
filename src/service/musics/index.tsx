@@ -1,7 +1,8 @@
 import artistApi from "../api";
+import { IMusicsResult } from "./musics.structure";
 
 class Musics {
-  getMusics = async (id: number) => {
+  getMusics = async (id: number): Promise<IMusicsResult | false> => {
     try {
       const { data } = await artistApi.get(`/lookup?id=${id}&entity=song`)
 
