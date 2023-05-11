@@ -25,11 +25,12 @@ export default {
           "0%": { opacity: "-1000%", height: "0px" },
           "80%": { opacity: "50%" },
           "100%": { opacity: "100%" }
-        }
+        },
       },
       animation: {
         openLogin: "openLogin 3s",
-        openInputs: "openInputs 3s"
+        openInputs: "openInputs 3s",
+        spin: "spin 3s linear infinite"
       }
     },
     transitionProperty: {

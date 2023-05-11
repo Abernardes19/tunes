@@ -48,8 +48,8 @@ export default function Search() {
   return (
     <div>
       <Header />
-      <div className=" flex flex-col items-center mt-[200px] h-screen w-screen">
-        <form className=" flex items-center justify-center gap-5">
+      <div className=" flex flex-col items-center h-screen w-screen">
+        <form className=" flex items-center justify-center gap-5 mt-[200px]">
           <label>
             <input
               className=" bg-dark-green border rounded-full p-2 w-[500px]"

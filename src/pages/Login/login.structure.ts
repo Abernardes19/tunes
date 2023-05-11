@@ -1,9 +1,9 @@
 export const defaultLocal = (user: IUser) => {
-  return {
+  localStorage.setItem("tunes", JSON.stringify({
     name: user.name,
     email: user.email,
-    favoritos: []
-  }
+  }))
+  localStorage.setItem("favorites", JSON.stringify([]))
 }
 
 export interface IUser {

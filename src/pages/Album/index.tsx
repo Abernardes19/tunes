@@ -10,10 +10,7 @@ export default function Album() {
   const [allMusics, setAllMusics] = useState([] as (IMusics & IAlbumInfo)[])
   const [loading, setLoading] = useState(true as boolean);
   const [apiError, setApiError] = useState(false as boolean);
-  const { id } = useParams();
-
-  console.log(allMusics);
-  
+  const { id } = useParams();  
 
   const renderMusics = () => {
     return (
@@ -32,10 +29,7 @@ export default function Album() {
   }
 
   const getMusics = useCallback(async () => {
-    const data = await musics.getMusics(Number(id))
-
-    console.log(data);
-    
+    const data = await musics.getMusics(Number(id))  
 
     if (data) {
       setTimeout(() => {
@@ -57,7 +51,7 @@ export default function Album() {
   return (
     <div>
       <Header />
-      <div className=" flex flex-col items-center mt-[200px] h-screen w-screen">
+      <div className=" flex flex-col items-center h-screen w-screen">
         {loading ? (
           <div className=" w-screen flex justify-center mt-[200px]">
             <Loading />

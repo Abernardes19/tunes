@@ -8,7 +8,7 @@ export default function Login() {
   const navigate = useNavigate()
 
   const login = () => {
-    localStorage.setItem("tunes", JSON.stringify(defaultLocal(userInfo)));
+    defaultLocal(userInfo)
     navigate("/search")
   }
 
