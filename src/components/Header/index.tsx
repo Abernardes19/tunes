@@ -27,7 +27,7 @@ export default function Header() {
           Favoritos
         </button>
         <span className={spanBorder} />
-        <button className={btnNav}>
+        <button className={btnNav} onClick={() => navigate("/profile")}>
           Perfil
         </button>
       </nav>

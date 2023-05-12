@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IMusicProp } from "./music.structure";
 import { BsPlayFill, BsPlay } from "react-icons/bs";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
