@@ -1,0 +1,2 @@
+export const btnNav = "bg-dark-green w-[30%] border-light-green border-0 rounded-[0px] rounded-[0px] transition-all ease-in-out duration-500 hover:border-2 hover:border-dark-green hover:bg-light-green hover:rounded-2xl"
+export const spanBorder = "bg-light-green w-[2px] h-[80%]"
